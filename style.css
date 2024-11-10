@@ -1,0 +1,35 @@
+/* CSS for table styling */
+.table {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 0.9em;
+}
+.table td, .table th {
+    word-wrap: break-word;
+    padding: 8px;
+    vertical-align: top;
+}
+
+/* Code block styling */
+.code-cell pre, code, .highlight pre {
+    white-space: pre-wrap !important;      /* Wrap text */
+    word-break: break-word !important;      /* Break long words */
+    overflow-wrap: break-word !important;
+    font-size: 0.8em !important;            /* Adjust font size */
+    line-height: 1.2 !important;            /* Optional: adjust line spacing for readability */
+}
+
+
+/* General styling adjustments */
+.figure {
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Hide warnings if necessary */
+.warning {
+    display: none;
+}
+
+
+

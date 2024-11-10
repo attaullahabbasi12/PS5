@@ -1,0 +1,14 @@
+# Ignore CSV files
+*.csv
+
+# Ignore shapefiles
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# Ignore other large or irrelevant file types
+*.png
+*.jpg
+*.pdf
+
