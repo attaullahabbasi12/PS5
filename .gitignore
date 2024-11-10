@@ -10,5 +10,5 @@
 # Ignore other large or irrelevant file types
 *.png
 *.jpg
-*.pdf
+*.html
 
